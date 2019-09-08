@@ -423,4 +423,7 @@ iframe {
 	.container {
 		max-height: 450px;
 	}
+	
+	#recognition {
+		width: 100%;
 }
