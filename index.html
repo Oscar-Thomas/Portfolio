@@ -1,14 +1,14 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html class="window">
   <head>
+	<meta charset="UTF-8">
 
-      <!-- Coded by Oscar Thomas, 2019 -->
+      <!-- OSCAR THOMAS — 3 SEP 2019 -->
 
 
       <!-- FAV ICON -->
-      <link rel="shortcut icon" type="image/png" href="fav/icon.png"/>
-      <link rel="shortcut icon" type="image/png" href="fav/icon.png"/>
+      <link rel="shortcut icon" type="image/png" href="fav/icon2.png"/>
+      <link rel="shortcut icon" type="image/png" href="fav/icon2.png"/>
 
 
       <!-- GOOGLE ANALYTICS -->
@@ -17,7 +17,6 @@
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-
           gtag('config', 'UA-133171586-1');
         </script>
 
@@ -34,317 +33,449 @@
 
 
         <!-- SCRIPTS -->
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/responsiveslides.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <!--  <script>
+                $(document).ready(function(){
+  $(".content dl").click(function(){
+    $(".carousel").fadeToggle(440);
 
+  });
+});
+        </script> -->
+
+    
+
+        <script src="js/flickity.pkgd.min.js"></script>
+        <script src="js/functions.js"></script>
 
         <!-- CSS -->
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/boockup.css">
         <link rel="stylesheet" href="https://use.typekit.net/zzu6amt.css">
-        <link rel="stylesheet" href="css/hamburgers.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/flickity.min.css" media="screen">
+        <link rel="stylesheet" href="css/main_light.css">
+
+  </head>
 
 
-
-        <!-- CAROUSEL SLIDER -->
-        <!-- DOCUMENTATION: http://responsiveslides.com/ -->
-        <script>
-          // You can also use "$(window).load(function() {"
-          $(function () {
-
-          // Slideshow 1
-          $("#slider1").responsiveSlides({
-            auto: true,
-            timeout: 2200,
-            nav: true,
-            speed: 0,
-            random: true,
-            pause: true,
-            namespace: "transparent-btns"
-            });
-          });
-        </script>
-
-
-        <!-- HAMBURGER ICON JS, PLACED UNDER CAROUSEL JS TO AVOID CONFLICT --> 
-        <script src="js/hamburgers.js" async></script> 
-
-
-<style>
-
-
-    </style>
- </head>
-
-  <body class="fade-in">
-
-<article class="cv">
-
-
-
-
-            <header>
-                Oscar Thomas
-            </header>
-        
-            <p> 
-                Graphic Design, Video & Photo
-                 
-            </p>
-
+<body>
             
 
+<div class="wrapper">
+
+	<header class="header">
+		<a href="oscar_thomas.html"><img class="monogram" src="monogram/OT_Monogram_dark.svg" alt="Oscar Thomas Graphic Deisgner New Zealand"></a>
+
+	</header>
+
+
+<div class="content">
+
+        <dl class="project" id="NZP_BRAND_MANUAL">
+            <div class="number">01</div>
+            <div class="name">NZ Police Brand Manual</div>
+            <div class="info">Putting New Zealand back into the New Zealand Police</div>
+            <div class="type">Publication</div>
+            <div class="date">2019</div>
+        </dl>
+        <dt>
+            <div class="gallery">
+                <div class="gallery_content">
+
+                    <div class="carousel" data-flickity='{ "wrapAround": true, "pageDots": false}'>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZP-BM-1.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZP-BM-2.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZP-BM-3.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZP-BM-4.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZP-BM-5.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZP-BM-6.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZP-BM-7.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZP-BM-8.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZP-BM-9.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZP-BM-10.jpg"></div>
+                    </div>
+
+                    <p class="caption">
+                        Future-proofing NZ Police's new branding.
+                    </p>
+                </div>
+            <div>
+        </dt>
+
+<dl class="project" id="NZP_BRAND_MANUAL">
+            <div class="number">01</div>
+            <div class="name">NZ Police Recuitment Photography</div>
+            <div class="info">Capturing NZ Police's best side</div>
+            <div class="type">Art Direction</div>
+            <div class="date">2019</div>
+        </dl>
+        <dt>
+            <div class="gallery">
+                <div class="gallery_content">
+
+                    <div class="carousel" data-flickity='{ "wrapAround": true, "pageDots": false}'>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZP-photo-1.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZP-photo-2.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZP-photo-3.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZP-photo-4.jpg" ></div>
+                    </div>
+
+                    <p class="caption">
+                        Art direction for NZ Police. Photography by <a href="https://www.lhpnz.com/">Luke Harvey</a>.
+                    </p>
+                </div>
+            <div>
+        </dt>
+
+
+        <dl class="project" id="NZPC">
+            <div class="number">02</div>
+            <div class="name">NZ Prostitutes’ Collective</div>
+            <div class="info">A guide for sex workers who have experienced sexual assualt</div>
+            <div class="type">Publication</div>
+            <div class="date">2019</div>
+        </dl>
+        <dt>
+            <div class="gallery">
+                <div class="gallery_content">
+                    <div class="carousel" data-flickity='{ "wrapAround": true, "pageDots": false }'>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZPC-1.png" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZPC-2.png" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZPC-3.png" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZPC-4.png" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZPC-5.png" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/NZPC-6.png" ></div>
+                    </div>
+
+                    <p class="caption">
+                       The first collaborative resource between NZ Police and NZ Prostitutes' Collective.
+                    </p>
+                </div>
+        </dt>
 
 
 
+		
+        <dl class="project" id="PANORAMA">
+            <div class="number">03</div>
+            <div class="name">Panorama Magazine</div>
+            <div class="info">Our thoughts on cinema</div>
+            <div class="type">Publication</div>
+            <div class="date">2019</div>
+        </dl>
 
-<div class="hamburger-wrap" style="cursor:pointer" onclick="togNav()">
-        <button class="hamburger hamburger--spin-r hamburger--accessible js-hamburger" type="button" style="outline:none;">
+        <dt> 
+            <div class="gallery">
+                <div class="gallery_content">
 
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
-          <span class="hamburger-label">Info</span>
+                            
 
-<script>
-
-
-function togNav() {
-  var nav = document.getElementById("myNav");
-  if (nav.style.height == '100%') {
-    nav.style.height = '0%';
-  } else {
-    nav.style.height = "100%";
-  }
-}
-
- </script>
-
-        </button>
-      </div>
-
-
-
-      
-
-
-    </article>
+                                    <div class="carousel" data-flickity='{ "wrapAround": true, "pageDots": false, "cellAlign": "center" }'>
+                                        <div class="carousel-cell">
+                                            
+                            <div class="container">
+                                        <div class="boockup">
+                                            <div class="book-container">
+                                                <div class="book-front"></div>
+                                                <div class="book-side-left"></div>
+                                                <div class="book-side-right"></div>
+                                                <div class="book-top"></div>
+                                                <div class="book-bottom"></div>
+                                                <div class="book-back"></div>
+                                                </div>
+                                        </div>
+                                    </div>
 
 
-<div id="myNav" class="overlay">
-
-  <div class="overlay-content">
-    Oscar Thomas is a graphic designer for the NZ&nbsp;Police in Wellington, New&nbsp;Zealand. You can follow him on <a href="https://www.instagram.com/osco.me" target="_blank">instagram</a>.
-    Just don't ask him to write about himself in 3<sup>rd</sup> person.
-
-<br>
-<br>
-<p class="contact">
-+64 027 843 0256
-    <br>
-  <a href="mailto:kiaora@oscarthomas.co.nz?subject=Website%20inquiry&body=Hey!%20Thank%20you%20for%20checking%20out%20my%20work.%20Please%20let%20me%20know%20what%20you'd%20like%20to%20enquire%20about%20and%20i'll%20get%20back%20to%20you%20as%20soon%20as%20I%20can.%20My%20CV%20is%20available%20on%20request.%0A%0AHave%20a%20great%20day.%0A%0ACheers%2C%0AOscar">kiaora@oscarthomas.co.nz</a>
-</p>
-  </div>
-</div>
+                                        </div>
+                                        <div class="carousel-cell"><img class="gallery_image" src="img/Panorama-mockup_14.png" ></div>
+                                        <div class="carousel-cell"><img class="gallery_image" src="img/Panorama-mockup_13.png" ></div>
+                                        <div class="carousel-cell"><img class="gallery_image" src="img/Panorama-mockup_2.png" ></div>
+                                        <div class="carousel-cell"><img class="gallery_image" src="img/Panorama-mockup_1.png" ></div>
+                                        <div class="carousel-cell"><img class="gallery_image" src="img/Panorama-mockup_7.png" ></div>
+                                        <div class="carousel-cell"><img class="gallery_image" src="img/Panorama-mockup_6.png" ></div>
+                                        <div class="carousel-cell"><img class="gallery_image" src="img/Panorama-mockup_4.png" ></div>
+                                        <div class="carousel-cell"><img class="gallery_image" src="img/Panorama-mockup_5.png" ></div>
+                                        <div class="carousel-cell"><img class="gallery_image" src="img/Panorama-mockup_3.png" ></div>
+                                        <div class="carousel-cell"><img class="gallery_image" src="img/Panorama-mockup_12.png" ></div>
+                                        <div class="carousel-cell"><img class="gallery_image" src="img/Panorama-mockup_10.png" ></div>
+                                        <div class="carousel-cell"><img class="gallery_image" src="img/Panorama-mockup_11.png" ></div>
+                                        <div class="carousel-cell"><img class="gallery_image" src="img/Panorama-mockup_8.png" ></div>
+                                        <div class="carousel-cell"><img class="gallery_image" src="img/Panorama-mockup_9.png" ></div>
 
 
 
-<article class="work">
-          <div class="rslides_container">
-            
-            <ul class="rslides" id="slider1">
+                                    </div>
+                                
 
-              <li>
-                <img src="imgs/japan_fourm.jpg" alt="">
-                <p class="caption">Tokyo International Fourm</p>
-              </li>
+                    <p class="caption">
+                        An independent cinema zine to satisfy our curiosity and pique yours. Issue 01 – 'watching'
+                    </p>
 
-              <li>
-                <img src="imgs/Tukituki.jpg" alt="">
-                <p class="caption">Logo for a hemp orchard in Hawke's Bay</p>
-              </li>
+                </div>
+            </div>
+        </dt>
 
-              <li>
-                <img src="imgs/NZPC_1.jpg" alt="">
-                <p class="caption">Co-branded brochure for NZ Police & the NZ Prostitues' Collective</p>
-              </li>
 
-              <li>
-                <img src="imgs/NZPC_2.jpg" alt="">
-                <p class="caption">Co-branded brochure for NZ Police & the NZ Prostitues' Collective</p>
-              </li>
 
-              <li>
-                <img src="imgs/NZPC_3.jpg" alt="">
-                <p class="caption">Co-branded brochure for NZ Police & the NZ Prostitues' Collective</p>
-              </li>
+        <dl class="project" id="CAUSE_FOR_EFFECT">
+            <div class="number">04</div>
+            <div class="name">Cause for Effect</div>
+            <div class="info">SPCA Charity Zine</div>
+            <div class="type">Publication</div>
+            <div class="date">2019</div>
+        </dl>
+        <dt>
+            <div class="gallery">
+                <div class="gallery_content">
+                    <div class="gallery_content">
+                        <div class="carousel" data-flickity='{ "wrapAround": true, "pageDots": false }'>
+                            <div class="carousel-cell"><img class="gallery_image" src="img/CFA_1.jpg" ></div>
+                            <div class="carousel-cell"><img class="gallery_image" src="img/CFA_3.jpg" ></div>
+                            <div class="carousel-cell"><img class="gallery_image" src="img/CFA_5.jpg" ></div>
+                        </div>
+                    </div>
 
-              <li>
-                <img src="imgs/POW.jpg" alt="">
-                <p class="caption">Marketing brochure for POW Studios</p>
-              </li>
+                    <p class="caption">
+                        Spread submission to a charity zine <a href="https://causeforeffect.nz/">'Cause for Effect'</a> <br>
+                        Images includes work by <a href="https://kellykimdesign.net/">Kelly Kim</a>, <a href="https://www.instagram.com/ITSMOLAWIN/">Molawin Evangelista</a>, <a href="https://www.instagram.com/SOTHATSTOM/">Tim So</a>, <a href="https://aitkenhawkins.co.nz/">Aitken Hawkins</a>, and <a href="https://jmoore.design/">Joe Moore</a>
+                    </p>
 
-              <li>
-                <img src="imgs/bella_card.jpg" alt="">
-                <p class="caption">Business card for a trans advocate speaker</p>
-              </li>
+                </div>
+            </div>
+        </dt>
 
-              <li>
-                <img src="imgs/al.jpg" alt="">
-                <p class="caption">Alice</p>
-              </li>
 
-              <li>
-                <img src="imgs/bejia.jpg" alt="">
-                <p class="caption">Beija</p>
-              </li>
 
-              <li>
-                <img src="imgs/end.jpg" alt="">
-                <p class="caption">TePapa</p>
-              </li>
-
-              <li>
-                <img src="imgs/guy.jpg" alt="">
-                <p class="caption">Guy</p>
-              </li>
-
-              <li>
-                <img src="imgs/japan_hakone1.jpg" alt="">
-                <p class="caption">Hakone</p>
-              </li>
-
-              <li>
-                <img src="imgs/japan_hakone2.jpg" alt="">
-                <p class="caption">Hakone</p>
-              </li>
-
-              <li>
-                <img src="imgs/japan_kyoto.jpg" alt="">
-                <p class="caption">Kyoto</p>
-              </li>
-
-              <li>
-                <img src="imgs/japan_nara.jpg" alt="">
-                <p class="caption">Nara</p>
-              </li>
-
-              <li>
-                <img src="imgs/mark.jpg" alt="">
-                <p class="caption">'The Room' screening</p>
-              </li>
-              
-              <li>
-                <img src="imgs/moiwa_military.jpg" alt="">
-                <p class="caption">Moiwa</p>
-              </li>
-                
-              <li>
-                <img src="imgs/shoreline.JPG" alt="">
-                <p class="caption">Rotorua</p>
-              </li>
-                   
-              <li>
-                <img src="imgs/zach.jpg" alt="">
-                <p class="caption">Zach, exposed</p>
-              </li>
-
-              <li>
-                <img src="imgs/WPC_1.jpg" alt="">
-                <p class="caption">The Wellington Public Cinema Zine</p>
-              </li>
-              
-              <li>
-                <img src="imgs/WPC_2.jpg" alt="">
-                <p class="caption">The Wellington Public Cinema Zine</p>
-              </li>
-              
-              <li>
-                <img src="imgs/WPC_3.jpg" alt="">
-                <p class="caption">The Wellington Public Cinema Zine</p>
-              </li>
-
-              <li>
-                <img src="imgs/WPC_4.jpg" alt="">
-                <p class="caption">The Wellington Public Cinema Zine</p>
-              </li>
-
-              <li>
-                <img src="imgs/nt_1.png" alt="">
-                <p class="caption">Personal work</p>
-              </li>
-              
-              <li>
-                <img src="imgs/nt_2.png" alt="">
-                <p class="caption">Personal work</p>
-              </li>
-
-              <li>
-                <img src="imgs/Paul.jpg" alt="">
-                <p class="caption">Identity for a gardening / property maintenance contractor</p>
-              </li>
-
-<!-- VIDEO -->
-              <li>
-                <iframe 
+       	<dl class="project" id="WHITE_TOWELS">
+            <div class="number">05</div>
+            <div class="name">White Towels</div>
+            <div class="info">Debut music video for No Pictures Please</div>
+            <div class="type">Music Video</div>
+            <div class="date">2018</div>
+        </dl>
+        <dt>
+        	<div class="gallery">
+                <div class="gallery_content">
+                    <iframe 
                   title="YouTube video player"
-           
-                  src="https://www.youtube.com/embed/gLZ42pb3788?&rel=0&color=white&controls=1&enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-                </iframe>
-                <p class="caption">Shot & Co-Directed as part of a team effort. <br> Made as part of HP 48Hours</p>
-              </li>
-
-              <li>
-                <iframe 
-                  title="YouTube video player"
-           
-                  src="https://www.youtube.com/embed/EvbQe46VlXs?&rel=0&color=white&enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-                </iframe>
-                <p class="caption">Shot & Edited</p>
-              </li>
-
-              <li>
-                <iframe 
-                  title="YouTube video player"
-          
                   src="https://www.youtube.com/embed/D-0nNERFJo0?&rel=0&color=white&enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net" 
                   frameborder="0" 
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                   allowfullscreen>
                 </iframe>
-                <p class="caption">Shot & Co-Produced</p>
-              </li>
 
-              <li>
-                <iframe 
-                  title="YouTube video player"
-            
-                  src="https://www.youtube.com/embed/FBxmVXIbhm0?&rel=0&color=white&enablejsapi=1&amp;origin=http%3A%2F%2Ffiddle.jshell.net" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-                </iframe>
-                <p class="caption">Degenerate fun on the FS7</p>
-              </li>
+                <p class="caption">
+                        Cinematography for <a href="https://open.spotify.com/artist/08Ta9KKbTPc4U3r56IHqWe">No Pictures Please</a>. Directed by <a href="https://www.instagram.com/finnhollaand/">Finn Holland</a>
+                    </p>
 
-        </ul>
-      </div>
-    </article>
-
-    
-
-
-    
+                </div>
+            </div>
+        </dt>
 
 
 
+        
 
 
-</body>
+
+        
+
+
+        <dl class="project" id="PHOTOS_JAPAN">
+            <div class="number">06</div>
+            <div class="name">Japan</div>
+            <div class="info">Photos from my first trip to Japan</div>
+            <div class="type">Photography</div>
+            <div class="date">2018</div>
+        </dl>
+        <dt>
+        	<div class="gallery">
+                <div class="gallery_content">
+                    <div class="carousel" data-flickity='{ "wrapAround": true, "pageDots": false }'>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_japan_tokyo.jpg"></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_moiwa_military.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_moiwa_tree.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_japan_fourm.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_japan_hakone1.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_japan_hakone2.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_japan_kyoto.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_japan_nara.jpg"></div>
+                    </div>
+
+                    <p class="caption">
+                        Taken in March 2018
+                    </p>
+
+                </div>
+            </div>
+        </dt>
+
+
+
+        <dl class="project" id="PHOTOS_PERSONAL">
+            <div class="number">07</div>
+            <div class="name">Photos</div>
+            <div class="info">Miscellaneous Photos</div>
+            <div class="type">Photography</div>
+            <div class="date">2017 – 19</div>
+        </dl>
+        <dt>
+            <div class="gallery">
+                <div class="gallery_content">
+                    <div class="carousel" data-flickity='{ "wrapAround": true, "pageDots": false }'>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_mark.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_end.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_shoreline.jpg"></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_bejia.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_al.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_zach.jpg"></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_guy.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/photo_kyle.jpg" ></div>
+
+
+
+                    </div>
+
+                    <p class="caption">
+                        Various personal photos
+                    </p>
+
+                </div>
+            </div>
+        </dt>
+
+
+
+
+        <dl class="project" id="DESIGN">
+            <div class="number">08</div>
+            <div class="name">Logomarks</div>
+            <div class="info">Miscellaneous logomarks</div>
+            <div class="type">Branding</div>
+            <div class="date">2017 – 19</div>
+        </dl>
+        <dt>
+        	<div class="gallery">
+                <div class="gallery_content">
+                    <div class="carousel" data-flickity='{ "wrapAround": true, "pageDots": false }'>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/logo-01.png"></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/logo-02.png"></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/logo-03.png"></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/logo-04.png"></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/logo-05.png"></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/logo-06.png"></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/logo-07.png"></div>
+                    </div>
+
+                    <p class="caption">
+                        
+                    </p>
+
+                </div>
+            </div>
+        </dt>
+
+
+        <dl class="project" id="DESIGN">
+            <div class="number">09</div>
+            <div class="name">Illustrations</div>
+            <div class="info">Miscellaneous Illustrations</div>
+            <div class="type">Illustration</div>
+            <div class="date">2017 – 19</div>
+        </dl>
+        <dt>
+            <div class="gallery">
+                <div class="gallery_content">
+                    <div class="carousel" data-flickity='{ "wrapAround": true, "pageDots": false }'>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/Illu-01.png"></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/Illu-02.png"></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/Illu-03.png"></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/Illu-04.png"></div>
+                    </div>
+
+                    <p class="caption">
+                    
+                    </p>
+
+                </div>
+            </div>
+        </dt>
+
+
+
+        <dl class="project" id="WELLINGTON_PUBLIC_CINEMA">
+            <div class="number">10</div>
+            <div class="name">Wellington Public Cinema</div>
+            <div class="info">Little films on big screens</div>
+            <div class="type">Film Fesitval</div>
+            <div class="date">2016 – 17</div> 
+        </dl>
+        <dt>
+            <div class="gallery">
+                <div class="gallery_content">
+                    <div class="carousel" data-flickity='{ "wrapAround": true, "pageDots": false }'>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/WPC_1.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/WPC_2.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/WPC_3.jpg" ></div>
+                        <div class="carousel-cell"><img class="gallery_image" src="img/WPC_4.jpg" ></div>
+                    </div>
+
+                    <p class="caption">
+                        Showcasing Wellington short films regardless of age, experience or budget.
+                    </p>
+
+                </div>
+            </div>
+        </dt>
+
+
+
+        <dl class="project" id="CONTACT">
+            <div class="number">11</div>
+            <div class="name">Information</div>
+            <div class="info"></div>
+            <div class="type"></div>
+            <div class="date"></div>
+        </dl>
+
+        <dt>
+        	<div class="gallery">
+                <div class="gallery_content">
+                    <div id="contact">
+                    <a href="tel:123-456-7890">+64 027 843 0256</a></br>
+                    <a href="mailto:kiaora@oscarthomas.co.nz?subject=Website%20inquiry&body=Kia%20Ora!%20Thank%20you%20for%20checking%20out%20my%20work.%20Please%20let%20me%20know%20what%20you'd%20like%20to%20enquire%20about%20and%20i'll%20get%20back%20to%20you%20as%20soon%20as%20I%20can.%0A%0AHave%20a%20great%20day.%0A%0ACheers%2C%0AOscar">kiaora@oscarthomas.co.nz</a></br>
+                    <a href="https://www.instagram.com/osco.me/">Instagram</a></br>
+                    <a href="https://www.are.na/oscar-thomas">Are.na</a></br>
+                    <a href="url">CV</a>
+
+                    <p id="reconigition">
+                        <u>Recognition</u> <br>
+                        <a href="https://bestawards.co.nz/graphic/business-communication/stanley-st/a-manual-for-putting-aotearoa-back-into-new-1/">2019 — Best awards finalist </a> <br>
+                        <a href="https://designassembly.org.nz/2019/05/24/in-house-design-luminaries-oscar-thomas-at-the-new-zealand-police-force/">2019 — Design Assembly Interview</a> <br>
+                        <a href="https://medium.com/arts-counsel-dialogues/art-x-community-with-wellington-public-cinema-fe4f9723223">2018 — Arts Council Interview</a> <br>
+                    </p>
+
+                    </div>
+
+
+                </div>
+            </div> 
+        </dt>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
 </html>
