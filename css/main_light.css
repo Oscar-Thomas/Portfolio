@@ -407,6 +407,7 @@ iframe {
 		display: visible;
 		margin: 0;
 		font-size: 32px;
+		width: 100%;
 	}
 
 	.carousel-cell {
@@ -424,6 +425,6 @@ iframe {
 		max-height: 450px;
 	}
 	
-	#recognition {
-		width: 100%;
+
+		
 }
